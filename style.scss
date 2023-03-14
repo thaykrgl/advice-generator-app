@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background: #202733;
+}
+
+.content-container {
+    width: 540px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #313A48;
+    box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.100202);
+    border-radius: 15px;
+    padding: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 0px;
+
+    img {
+        max-width: 100%;
+    }
+
+    @media(max-width:768px) {
+        width: 90%;
+        margin: auto;
+        padding-top: 40px;
+        padding-inline: 24px;
+    }
+
+    .heading {
+        margin-bottom: 24px;
+
+        h5 {
+            font-weight: 800;
+            font-size: 13px;
+            line-height: 18px;
+            text-align: center;
+            letter-spacing: 4px;
+            color: #53FFAA;
+
+            @media(max-width:768px) {
+                font-size: 11px;
+                line-height: 15px;
+            }
+        }
+    }
+
+    .advice {
+        margin-bottom: 40px;
+
+        @media(max-width:768px) {
+            margin-bottom: 24px;
+        }
+
+        p {
+            font-weight: 800;
+            font-size: 28px;
+            line-height: 38px;
+            text-align: center;
+            letter-spacing: -0.3px;
+            color: #CEE3E9;
+            margin-bottom: 0px;
+
+            @media(max-width:768px) {
+                font-size: 24px;
+                line-height: 33px;
+            }
+        }
+    }
+
+    .pattern-divider {
+        margin-bottom: 40px;
+
+        @media(max-width:768px) {
+            margin-bottom: 32px;
+        }
+    }
+
+    .dice {
+        width: max-content;
+        padding: 20px;
+        border-radius: 50%;
+        background: #53FFAA;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: -32px;
+        cursor: pointer;
+    }
+}
