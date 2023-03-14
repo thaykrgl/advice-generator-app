@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/profile/thaykrgl)
-- Live Site URL: [Netlify](https://github-user-search-frontend-mentor.netlify.app/)
+- Live Site URL: [Netlify](https://advice-generator-app-front-mentor.netlify.app/)
 
 ## My process
 
