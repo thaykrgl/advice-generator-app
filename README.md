@@ -28,7 +28,7 @@ Users should be able to:
 <img src="./images/desktop.png" alt="">
 
 #### Mobile View
-<img src="./images/mobile.png" alt="">
+<img src="./images/mobile.png" alt="" style = "width: 375px; object-fit: cover; ">
 
 ### Links
 
